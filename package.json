@@ -1,0 +1,31 @@
+{
+  "name": "admin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://alii25@bitbucket.org/baracio/admin.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/baracio/admin#readme",
+  "dependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/node": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "apollo-link-context": "^1.0.19",
+    "apollo-server": "^2.7.0",
+    "bcrypt": "^3.0.6",
+    "eslint": "^6.1.0",
+    "graphql": "^14.4.2",
+    "js-cookie": "^2.2.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.6.5",
+    "nodemon": "^1.19.1"
+  }
+}
